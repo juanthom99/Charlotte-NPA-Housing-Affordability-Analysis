@@ -1,1 +1,0 @@
-# Charlotte-NPA-Housing-Affordability-Analysis
