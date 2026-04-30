@@ -14,6 +14,15 @@ We recognize that displacement risk modeling has significant social implications
 * **Primary Drivers:** The most critical predictors of displacement are **Household Income**, **Housing Size (sqft)**, and **Absenteeism rates**.
 * **Robustness:** All results underwent rigorous multi-seed stability testing, ensuring that identified risk patterns are consistent across different data splits.
 
+## Practical Application for Policy Makers
+This tool is designed to support proactive, evidence-based urban planning in Charlotte through three key workflows:
+
+Priority Triage: Planners can use the classification output as a "Priority List," filtering for NPAs flagged as "At Risk" (1) to focus limited intervention resources where they are most needed.
+
+Decision Support: When evaluating new development permits, the model provides an objective risk-assessment layer. This data can justify conditions for approval, such as requiring higher percentages of affordable housing units in vulnerable neighborhoods.
+
+Evidence-Based Advocacy: The analysis—specifically the Feature Importance findings—provides a rigorous data foundation for budget requests and federal grant applications (e.g., HUD funding), shifting arguments from subjective community observation to quantifiable structural risk.
+
 ## Repository Structure
 * `notebooks/01_data_ingestion.ipynb`: Data collection and database construction.
 * `notebooks/02_feature_engineering.ipynb`: Creation of the `displacement_risk` target and demographic feature set.
