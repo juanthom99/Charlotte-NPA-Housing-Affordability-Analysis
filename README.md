@@ -49,7 +49,7 @@ Decision Support: When evaluating new development permits, the model provides an
 
 * **Interactive Tool:** [View the Live Interactive Risk Map](https://juanthom99.github.io/Charlotte-NPA-Housing-Affordability-Analysis/outputs/displacement_risk_map.html)
 
-Evidence-Based Advocacy: The analysis—specifically the Feature Importance findings—provides a rigorous data foundation for budget requests and federal grant applications (e.g., HUD funding), shifting arguments from subjective community observation to quantifiable structural risk.
+Evidence Based Advocacy: The analysis-specifically the Feature Importance findings provide a rigorous data foundation for budget requests and federal grant applications (e.g., HUD funding), shifting arguments from subjective community observation to quantifiable structural risk.
 
 ## Repository Structure
 * `notebooks/01_data_ingestion.ipynb`: Data collection and database construction.
