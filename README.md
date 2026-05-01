@@ -47,6 +47,8 @@ Priority Triage: Planners can use the classification output as a "Priority List,
 
 Decision Support: When evaluating new development permits, the model provides an objective risk-assessment layer. This data can justify conditions for approval, such as requiring higher percentages of affordable housing units in vulnerable neighborhoods.
 
+* **Interactive Tool:** [View the Live Interactive Risk Map](https://juanthom99.github.io/Charlotte-NPA-Housing-Affordability-Analysis/outputs/displacement_risk_map.html)
+
 Evidence-Based Advocacy: The analysis—specifically the Feature Importance findings—provides a rigorous data foundation for budget requests and federal grant applications (e.g., HUD funding), shifting arguments from subjective community observation to quantifiable structural risk.
 
 ## Repository Structure
