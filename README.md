@@ -9,6 +9,32 @@ We recognize that displacement risk modeling has significant social implications
 * **Algorithmic Transparency:** By prioritizing interpretable models (Random Forest) and performing multi-seed stability testing, we ensure that our "At Risk" flags are based on stable patterns rather than statistical noise.
 * **Focus on Triage, Not Targeting:** This tool is designed to assist policy makers in allocating resources to support vulnerable populations. We emphasize that these outputs should serve as a starting point for deeper qualitative community engagement, rather than a final verdict.
 
+## Getting Started: Workflow & Usage
+This repository is designed to be executed sequentially. Follow the workflow below to reproduce the displacement risk assessment.
+
+### 1. Data Ingestion & Database Construction
+* **Run:** `notebooks/01_data_ingestion.ipynb`
+* **Goal:** Collect raw housing and demographic data and initialize the central `data/charlotte_housing.db` SQL repository.
+
+### 2. Feature Engineering
+* **Run:** `notebooks/02_feature_engineering.ipynb`
+* **Goal:** Engineer the `displacement_risk` binary target and construct the demographic feature set. This notebook contains the logic to transform raw NPA data into a machine-learning-ready format.
+
+### 3. Exploratory Analysis & Regression
+* **Run:** `notebooks/03_regression_analysis.ipynb`
+* **Goal:** Perform the initial market analysis. This phase establishes the baseline by modeling home price trends—the "thermometer" phase—to understand baseline market volatility before applying classification.
+
+### 4. Classification & Triage
+* **Run:** `notebooks/04_classification.ipynb`
+* **Goal:** Execute the final triage model development. This notebook performs multi-seed stability validation (ensuring 75% mean test accuracy) and generates the classification risk flags used for policy decision-making.
+
+---
+
+### How to Reproduce Results
+1. Ensure your environment has the necessary dependencies (e.g., `geopandas`, `pyogrio`, `scikit-learn`).
+2. Run notebooks 01 through 04 in order.
+3. The final outputs (risk maps and classification reports) will be generated in the `outputs/` directory.
+
 ## Key Findings
 * **Model Performance:** The **Random Forest Classifier** was identified as the most stable and accurate model, achieving a **mean test accuracy of 75%** (± 2.8% across 10 random seeds).
 * **Primary Drivers:** The most critical predictors of displacement are **Household Income**, **Housing Size (sqft)**, and **Absenteeism rates**.
