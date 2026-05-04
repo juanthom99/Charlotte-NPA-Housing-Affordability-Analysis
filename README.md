@@ -1,8 +1,11 @@
 # Charlotte NPA Housing Affordability Analysis
 
 **Course:** DTSC 2302 | UNC Charlotte  
+
 **Contributors:**  Brian Aguirre, Juan Thomas,  Maxwell Valentine, Nihal Abbu, Jonathan Obele
+
 **Data Source:** Mecklenburg County Quality of Life Explorer  
+
 **Live Map:** [Click here to view the interactive displacement risk map](https://juanthom99.github.io/Charlotte-NPA-Housing-Affordability-Analysis/outputs/displacement_risk_map.html)
 
 ---
