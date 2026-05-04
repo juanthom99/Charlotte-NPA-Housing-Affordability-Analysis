@@ -27,6 +27,7 @@ Each NPA polygon is colored red for At Risk or blue for Stable. Clicking any nei
 ---
 
 ## Repository Structure
+'''
 Charlotte-NPA-Housing-Affordability-Analysis/
 ├── data/
 │   ├── charlotte_housing.db          # SQLite database (all raw + model tables)
@@ -50,7 +51,7 @@ Charlotte-NPA-Housing-Affordability-Analysis/
 ├── outputs/
 │   └── displacement_risk_map.html    # Deployable interactive map
 └── README.md---
-
+'''
 ## Data and Features
 
 All data was sourced from the [Mecklenburg County Quality of Life Explorer](https://maps.mecklenburgcountync.gov/qol/). Each CSV was loaded into its own table in the SQLite database and joined by NPA ID into a single analysis-ready table.
