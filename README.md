@@ -20,7 +20,7 @@ The project began with a straightforward question about predicting home values. 
 
 Each NPA polygon is colored red for At Risk or blue for Stable. Clicking any neighborhood opens a popup showing average home sales price, median household income, median rent, student absenteeism rate, bachelor's degree attainment, and the model's predicted displacement risk probability. The map was built using Folium and the official Mecklenburg County NPA boundary shapefile and requires no software to use.
 
----
+```
 
 ## Repository Structure
 
@@ -47,7 +47,7 @@ Charlotte-NPA-Housing-Affordability-Analysis/
 ├── outputs/
 │   └── displacement_risk_map.html
 └── README.md---
-
+```
 ## Data and Features
 
 | Feature | Description | Year |
