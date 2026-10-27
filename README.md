@@ -6,6 +6,8 @@ An exploratory analysis of neighborhood housing prices and an engineered afforda
 
 ## Overview
 
+![Interactive Charlotte housing affordability map](outputs/housing-atlas.png)
+
 This collaborative project joins public housing, economic, environmental, and civic indicators in SQLite, compares regression and classification models, and presents the analysis on an interactive neighborhood map.
 
 **459 geographic areas are present in the source data and boundary file. The models use 444 records with usable home sales prices; 15 areas with missing prices are excluded from modeling.** The classification target is engineered from a mortgage-affordability scenario. It is not observed displacement or a prediction of who will move.
